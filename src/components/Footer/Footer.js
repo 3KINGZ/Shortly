@@ -8,7 +8,9 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer>
-      <div>Shortly</div>
+      <div>
+        <a href="#top">Shortly</a>
+      </div>
       <div className="other-div">
         <h5>Features</h5>
         <div>Link shortening</div>

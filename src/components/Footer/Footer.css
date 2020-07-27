@@ -13,6 +13,10 @@ footer > div:nth-of-type(1) {
   color: white;
 }
 
+footer > div:nth-of-type(1):hover {
+  color: hsl(180, 66%, 49%);
+}
+
 .other-div {
   margin-right: 4%;
 }
