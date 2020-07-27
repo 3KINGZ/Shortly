@@ -70,7 +70,7 @@ function ActionDiv() {
             <p>
               <button
                 className="block-btn"
-                onClick={() => copyToClipboard(response.url)}
+                onClick={() => copyToClipboard(response.shortUrl)}
               >
                 Copy
               </button>
