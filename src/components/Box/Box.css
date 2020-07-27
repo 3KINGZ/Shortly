@@ -1,0 +1,32 @@
+.container {
+  padding: 2%;
+  width: 40%;
+  background-color: white;
+  margin-right: 2%;
+  border-radius: 7px;
+}
+
+.container > div:nth-of-type(1) {
+  margin: auto;
+  width: 52px;
+  height: 52px;
+  border-radius: 100%;
+  text-align: center;
+  background-color: hsl(257, 27%, 26%);
+  display: inline-block;
+}
+
+.container > div:nth-of-type(1) > img {
+  width: 60%;
+  margin-top: 20%;
+}
+
+.container > h3 {
+  margin-top: 4%;
+  margin-bottom: 2%;
+  color: hsl(255, 11%, 22%);
+}
+
+.container > p {
+  color: hsl(0, 0%, 75%);
+}

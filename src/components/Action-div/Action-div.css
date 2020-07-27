@@ -1,0 +1,100 @@
+.action-div {
+  background-color: hsl(260, 15%, 92%);
+  padding: 4% 8%;
+}
+
+.input-container > div > input {
+  width: 60%;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  height: 8vh;
+  border: none;
+}
+
+.input-container > div > button {
+  margin-left: 2%;
+  width: 35%;
+  border-radius: 6px;
+  height: 30px;
+  border: none;
+  background-color: hsl(180, 66%, 49%);
+  height: 8vh;
+  color: white;
+  font-weight: bold;
+}
+
+.error {
+  color: hsl(0, 87%, 67%);
+  margin-top: 2%;
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.short-link-container {
+  margin-top: 3%;
+  display: grid;
+  padding: 2%;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2%;
+  font-size: 1.5em;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.short-link-container > p:nth-of-type(1) {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  color: hsl(257, 27%, 26%);
+  margin-right: 5% !important;
+}
+
+.short-link-container > p:nth-of-type(2) {
+  color: hsl(180, 66%, 49%);
+}
+
+.short-link-container > p {
+  margin-right: 5%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.short-link-container > p > a {
+  text-decoration: underline;
+}
+
+.block-btn {
+  padding: 20%;
+  border-radius: 10px;
+  margin-top: 5%;
+  border: none;
+  background-color: hsl(180, 66%, 49%);
+  font-weight: bold;
+  color: white;
+}
+
+.short-link-container > div {
+  border: 1px solid blue;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stats {
+  margin-top: 7%;
+}
+
+.stats > h2 {
+  text-align: center;
+  font-size: 1.7em;
+  color: hsl(255, 11%, 22%);
+}
+
+.stats > div:nth-of-type(1) {
+  width: 42%;
+  color: hsl(0, 0%, 75%);
+}
+
+.stats > div {
+  margin: 2% auto;
+  text-align: center;
+}

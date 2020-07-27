@@ -1,0 +1,46 @@
+footer {
+  background-color: hsl(260, 8%, 14%);
+  color: hsl(0, 0%, 75%);
+  padding: 7%;
+  display: flex;
+  flex-direction: row;
+}
+
+footer > div:nth-of-type(1) {
+  font-size: 2em;
+  margin-right: 20%;
+  font-weight: bold;
+  color: white;
+}
+
+.other-div {
+  margin-right: 4%;
+}
+
+.other-div > h5 {
+  color: white;
+  font-size: 1.2em;
+}
+
+.other-div > div {
+  margin-bottom: 5%;
+}
+
+.other-div > div:hover {
+  color: hsl(180, 66%, 49%);
+  cursor: pointer;
+}
+
+.other-div > a > img:hover {
+  cursor: pointer;
+  color: hsl(180, 66%, 49%);
+}
+
+footer > .icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+footer > .icon-container > div {
+  margin-right: 10%;
+}
