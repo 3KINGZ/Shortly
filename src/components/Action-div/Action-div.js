@@ -65,7 +65,13 @@ function ActionDiv() {
           <div className="short-link-container">
             <p>{response.destination}</p>
             <p>
-              <a href={response.shortUrl}>{response.shortUrl}</a>
+              <a
+                href={response.shortUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {response.shortUrl}
+              </a>
             </p>
             <p>
               <button
