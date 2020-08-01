@@ -5,7 +5,7 @@ import "./Action-div.css";
 function ActionDiv() {
   const [longUrl, setLongUrl] = useState("");
   const [response, setResponse] = useState({});
-  // const [isCopy, setIsCopy] = useState(false);
+  const [copy, setCopy] = useState(false);
 
   let requestHeaders = {
     "Content-Type": "application/json",
@@ -17,6 +17,7 @@ function ActionDiv() {
   };
 
   function getShortLink() {
+    setCopy(false);
     if (longUrl) {
       linkRequest.destination = longUrl;
       fetch("https://api.rebrandly.com/v1/links", {
@@ -45,6 +46,7 @@ function ActionDiv() {
     el.select();
     document.execCommand("copy");
     document.body.removeChild(el);
+    setCopy(true);
   };
 
   return (
@@ -78,7 +80,7 @@ function ActionDiv() {
                 className="block-btn"
                 onClick={() => copyToClipboard(response.shortUrl)}
               >
-                Copy
+                {copy ? "Copied" : "Copy"}
               </button>
             </p>
           </div>
